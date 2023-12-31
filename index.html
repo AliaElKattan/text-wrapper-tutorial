@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title> CSS Tutorial </title>
+<link rel="stylesheet" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+  </head>
+
+
+  <body>
+
+<div id=content>
+    <!-- <h1 style="color: hotpink"> CSS Tutorial </h1> -->
+    <h1 id="code">text-wrap: balance </h1>
+
+    <p>In this tutorial, we focus on the <span id="code">text-wrap</span> property set in CSS. You may already be familiar with some of the settings for this property (e.g., <span id="code">'wrap'</span> or <span id="code">'nowrap'</span>), but here we introduce a newer one: <b><span id="code">'balance'</span></b>. </p>
+
+    <p>First, let's review what <span id="code">text-wrap</span> does. It controls how a body of text is wrapped, which changes how it responds to elements placed around it, line length and placement, and whether text overflows outside of its container. For example, below is a paragraph of sample text set to <span id="code">text-wrap: wrap</span>.</p>
+
+
+    <p id="code">text-wrapped: wrap</p>
+
+    <p style="color: hotpink; text-wrap: wrap">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    </p>
+
+    <p>
+      Consider the same paragraph of text, but with text-wrap set to <i>nowrap</i>. As you can see, removing the wrapping lets the text overflow from its container, going beyond its margins and the screen's width.
+    </p>
+ <p id="code">text-wrapped: nowrap</p>
+
+    <p style="color: hotpink; text-wrap: nowrap">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p> 
+
+    <p> Now let's see how the new setting, <span id="code">text-wrapped: balance</span> would work on the same body of text. As you can see below, the length of each line changes, resulting in a paragraph of 3 lines of roughly equal length. When is applied, you ask the browser to automatically balance the layout of text in a way that best suits factors such as its font size and container's area. Not that because this requires computational power, it only works for text of limited size.</p>
+
+ <!-- <p id="code">text-wrapped: balance</p> -->
+
+      <p style="color: hotpink; text-wrap: balance">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    </p>
+
+    <p>For more resources about <span id="code">text-wrap</span>, check <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap">MDN</a> or <a href="https://developer.chrome.com/docs/css-ui/css-text-wrap-balance">Chrome for Developers</a>. Or try it yourself! </p>
+
+</div>
+  </body>
+
+
+</html>

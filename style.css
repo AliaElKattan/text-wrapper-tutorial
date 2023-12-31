@@ -1,0 +1,29 @@
+body {
+		font-family: 'Open Sans', sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	background-color: rgb(15,15,15);
+}
+
+h1, h2, p {
+	color: white;
+
+/*text-wrap: wrap;*/
+/*text-wrap: nowrap;*/
+/*text-wrap: balance;*/
+/*text-wrap: pretty;*/
+/*text-wrap: stable;*/
+}
+
+#code {
+	font-family: Courier New;
+	color:palegreen;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px dotted hotpink;
+}
